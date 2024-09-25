@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const { withUt } = require("uploadthing/tw");
 
 /** @type {import('tailwindcss').Config} */
@@ -7,10 +8,19 @@ module.exports = withUt( {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+=======
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+>>>>>>> 02eedf8c8f5c7ba2104c2c43050c2093956a38a1
   ],
   theme: {
     extend: {
       backgroundImage: {
+<<<<<<< HEAD
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
@@ -66,3 +76,13 @@ module.exports = withUt( {
   },
   plugins: [require("tailwindcss-animate")],
 });
+=======
+        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
+        'gradient-conic':
+          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      },
+    },
+  },
+  plugins: [],
+}
+>>>>>>> 02eedf8c8f5c7ba2104c2c43050c2093956a38a1

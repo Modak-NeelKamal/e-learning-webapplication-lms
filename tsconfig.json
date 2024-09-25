@@ -1,6 +1,9 @@
 {
   "compilerOptions": {
+<<<<<<< HEAD
     "baseUrl": ".",
+=======
+>>>>>>> 02eedf8c8f5c7ba2104c2c43050c2093956a38a1
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -25,6 +28,10 @@
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+<<<<<<< HEAD
   "exclude": ["node_modules"],
    "types": ["node", "react", "react-dom", "react-i18next"]
+=======
+  "exclude": ["node_modules"]
+>>>>>>> 02eedf8c8f5c7ba2104c2c43050c2093956a38a1
 }
